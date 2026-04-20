@@ -1,0 +1,403 @@
+.faq-section {
+  background: #24323e;
+  padding: 50px 50px ;
+  color: white;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* LEFT */
+.faq-left {
+  flex: 6;
+   margin-left: -70px;
+}
+
+.faq-sub {
+  color: #ff5e3a;
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.faq-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* ITEM */
+.faq-item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* QUESTION */
+.faq-question {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-question span {
+  font-size: 18px;
+}
+
+/* ICON */
+.faq-icon {
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ANSWER */
+.faq-answer {
+  
+  padding: 15px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.faq-block strong {
+  color: #d6d1cd; /* Thay màu bạn muốn vào đây, ví dụ màu cam */
+}
+.faq-block p{
+  color: #cccbca;
+}
+/* BLOCK */
+.faq-block {
+  border-top: none !important;
+  font-size: 15px;
+  border-left: 1.8px dotted #ccc;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+.faq-list {
+  padding-left: 0;
+  font-size: 17px;
+  color: #909090;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.faq-list li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* RIGHT IMAGE */
+.faq-right {
+  flex: 4; /* to hơn */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.faq-right img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 6px;
+}
+
+/* BLOG */
+.blog-section {
+  text-align: center;
+  background: #fff;
+}
+
+.blog-sub {
+  color: #ff5e3a;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;      
+  margin-bottom: 20px; 
+}
+
+.blog-title {
+  color: #222;
+  font-weight: 700;
+  font-size: 33px !important;
+  margin-bottom: 50px !important;
+}
+
+.blog-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.blog-card {
+  width: 600px;
+  text-align: left;
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.blog-card h3 {
+  color: #838383;
+  font-size: 20px !important;
+  margin-bottom: 10px;
+}
+.blog-card h3 a {
+  color: #1a1a1a; /* màu chữ */
+  text-decoration: none; /* bỏ gạch chân */
+  transition: 0.3s;
+}
+
+.blog-card h3 a:hover {
+  color: #ff5e3a; /* hover màu cam */
+}
+.blog-card p a {
+  color: #1a1a1a; /* màu chữ */
+  text-decoration: none; /* bỏ gạch chân */
+  transition: 0.3s;
+}
+
+.blog-card p a:hover {
+  color: #ff5e3a; /* hover màu cam */
+}
+
+.blog-card .meta {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.blog-card .desc {
+  font-size: 15px;
+  color: #878080;
+}
+
+/* CTA */
+.cta-section {
+  background: #fff; /* 👈 nền xám sáng rõ ràng */
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2; /* 👈 tránh bị đè */
+}
+
+/* SUB TITLE */
+.cta-sub {
+  color: #ff5e3a;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+/* TITLE */
+.cta-section h2 {
+  font-size: 37px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+/* BUTTON WRAP */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* BUTTON CHÍNH */
+.btn-orange {
+  background: #eaab47;
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background: #e69500;
+}
+
+/* page4 */
+.features-page4 {
+  background-color: #fff;
+  padding: 10px 0 100px;
+  text-align: center;
+}
+
+.pricing-header {
+  margin-bottom: 60px;
+}
+
+.pricing-sub {
+  color: #ff5e3a;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pricing-title {
+  font-size: 36px;
+  color: #24323e;
+  font-weight: 700;
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style chung cho các ô (Card) */
+.pricing-card {
+  width: 100%; /* Đảm bảo ô chiếm hết chiều ngang thẻ link */
+  background: #fff;
+  border: 1px solid #c0bdbd;
+  padding: 40px 0 0 0;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  cursor: pointer; /* Hiện hình bàn tay khi chỉ vào bất cứ đâu */
+  position: relative;
+  margin-top: 35px;
+}
+
+/* Icon tròn phía trên */
+.card-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #666;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.pricing-card h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 52px;
+  font-weight: 700;
+  color: #24323e;
+  margin-bottom: 30px;
+}
+
+.price span:first-child {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.price span:last-child {
+  font-size: 14px;
+  color: #888;
+  font-weight: 400;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  flex-grow: 1; /* Đẩy nội dung list giãn ra */
+}
+
+.plan-features li {
+  padding: 16px 0;
+  font-size: 17px;
+  color: #666;
+  border-top: 1px solid #f9f9f9;
+}
+
+/* Nút bấm mặc định ẩn hoặc màu tối */
+.plan-btn {
+  background: #101010;
+  color: white;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto; /* Đẩy nút xuống dưới cùng */
+}
+
+/* Responsive cho mobile */
+@media (max-width: 1024px) {
+  .pricing-grid {
+    flex-wrap: wrap;
+  }
+  .pricing-card {
+    min-width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+.pricing-card-link:hover .plan-btn {
+  background-color: #ff1744; /* Nút cũng tự động đỏ theo */
+}
+
+.pricing-card-link:hover .card-icon i {
+  color: #ff1744;
+}
+
+.pricing-card-link:hover .card-icon {
+  border-color: #ff1744;
+  color: #ff1744;
+  transform: scale(1.1);
+}
+
+.pricing-card-link:hover .pricing-card {
+  border-color: #ff1744; /* Viền ô đỏ */
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(255, 23, 68, 0.15);
+}
+
+.pricing-card-link {
+  flex: 1;
+  text-decoration: none; /* Bỏ gạch chân link */
+  color: inherit; /* Giữ nguyên màu chữ của nội dung bên trong */
+  display: flex;
+}
+
+.card-icon-wrapper {
+  position: absolute;
+  top: -35px; /* Đẩy icon lên trên viền 1 nửa */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.divider {
+  width: 90%;
+  height: 1px;
+  margin: 10px auto; /* giảm hết khoảng cách */
+  background: rgba(0, 0, 0, 0.08);
+}
