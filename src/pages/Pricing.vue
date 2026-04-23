@@ -91,7 +91,8 @@
               </a>
             </h3>
             <p class="meta">
-              By <a href="tony-detail">Tony</a> • 0 Comments •
+              By <router-link to="/author/tony"> Tony </router-link> • 0
+              Comments •
               <a href="eco-detail">Ecommerce</a>
             </p>
             <p class="desc">
@@ -107,7 +108,11 @@
                 Best Shopify Themes And Templates You Can Use
               </a>
             </h3>
-            <p class="meta">By <a href="tony-detail">Tony</a> • 0 Comments</p>
+            <p class="meta">
+              By
+              <router-link to="/author/tony"> Tony </router-link>
+              • 0 Comments
+            </p>
             <p class="desc">
               The first point to be considered when starting a new website is
               how it looks like to your customers...
@@ -121,7 +126,10 @@
                 Order Printer: PDF Invoice App User Guide
               </a>
             </h3>
-            <p class="meta">By <a href="tony-detail">Tony</a> • 0 Comments</p>
+            <p class="meta">
+              By <router-link to="/author/tony"> Tony </router-link> • 0
+              Comments
+            </p>
             <p class="desc">
               This article is a comprehensive PDF invoice app user guide
               designed to help you fully explore...
@@ -334,8 +342,6 @@ const faqData = [
 </script>
 
 <style scoped>
-/* nếu bạn đã có faq.css thì giữ nguyên */
-/* Vue transition */
 .faq-enter-active,
 .faq-leave-active {
   transition: all 0.3s ease;

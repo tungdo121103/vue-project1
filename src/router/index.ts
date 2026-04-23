@@ -20,6 +20,48 @@ const routes = [
       { path: "contactVify", component: ContactVify },
       { path: "whyChoose", component: WhyChoose },
       { path: "blog", component: Blog },
+      {
+        path: "author/tony",
+        component: () => import("../pages/author/Tony.vue"),
+      },
+      {
+        path: "author/daisy",
+        component: () => import("../pages/author/Daisy.vue"),
+      },
+      {
+        path: "author/lara",
+        component: () => import("../pages/author/Lara.vue"),
+      },
+      {
+        path: "/ecommerce",
+        name: "ecommerce",
+        component: () => import("../pages/Ecommerce.vue"),
+      },
+      {
+        path: "/12best",
+        name: "12best",
+        component: () => import("../pages/12best.vue"),
+      },
+      {
+        path: "/postDetail",
+        name: "PostDetail",
+        component: () => import("../pages/PostDetail.vue"),
+      },
+      {
+        path: "/dropshipping",
+        name: "Dropshipping",
+        component: () => import("../pages/Dropshipping.vue"),
+      },
+      {
+        path: "/10best",
+        name: "10best",
+        component: () => import("../pages/10best.vue"),
+      },
+      {
+        path: "/vatInvoice",
+        name: "vatInvoice",
+        component: () => import("../pages/VatInvoice.vue"),
+      },
     ],
   },
 ];

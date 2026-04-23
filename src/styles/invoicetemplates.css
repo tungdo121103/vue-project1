@@ -10,7 +10,7 @@ hr {
   width: 90%;
   height: 1px;
   margin: 40px auto;
-  margin-top: 80px;
+  margin-top: 80px !important;
   background: rgba(0, 0, 0, 0.08);
   margin-bottom: 10px;
 }
@@ -171,7 +171,7 @@ hr {
   left: 20px;
 }
 .screen-second {
-  padding: 80px 100px;
+  padding: 100px 100px;
   background-color: #fff;
   font-family: "Inter", sans-serif; /* Hoặc font bạn đang dùng */
 }

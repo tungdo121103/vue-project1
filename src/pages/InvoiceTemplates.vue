@@ -87,9 +87,9 @@ import { ref, computed } from "vue";
 import anh1 from "../assets/shopify1.png";
 import anh2 from "../assets/shopify2.png";
 import anh3 from "../assets/shopify3.png";
-// import anh4 from "../assets/shopify4.png";
-// import anh5 from "../assets/shopify5.png";
-// import anh6 from "../assets/shopify6.png";
+import anh4 from "../assets/shopify4.png";
+import anh5 from "../assets/shopify5.png";
+import anh6 from "../assets/shopify6.png";
 
 import anhip from "../assets/ip.png";
 

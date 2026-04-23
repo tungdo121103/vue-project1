@@ -21,14 +21,18 @@
         <div v-for="(post, index) in posts" :key="index" class="blog-card">
           <img :src="post.image" :alt="post.title" />
 
-          <h3>{{ post.title }}</h3> 
+          <h3>{{ post.title }}</h3>
 
           <div class="blog-meta">
             By
-            <a href="/author/daisy" class="blog-author">
+            <router-link
+              :to="`/author/${post.author.trim().toLowerCase()}`"
+              class="blog-author"
+            >
               {{ post.author }}
-            </a>
+            </router-link>
             | 0 Comments
+            <router-link to="/Ecommerce" class="blog-author"> Ecommerce </router-link>
           </div>
 
           <p class="blog-text">
@@ -82,23 +86,20 @@ const posts = [
 ];
 
 // SECTIONS
-  const sections = [
-    {
-      title: "VIFY NEWS",
-      desc: "Vify specializes in analyzing, researching, collecting, and compiling the most valuable information for its customers. Here, you can find important insights related to Shopify, as well as resources to support business growth, such as how to run a business, manage sales systems, implement marketing strategies, and create professional invoices...",
-    },
-    {
-      title: "INVOICE-RELATED ARTICLES",
-      desc: "Creating and managing invoices are essential for Shopify stores. That’s why many store owners actively seek valuable insights on how to make the most of professional invoice apps. Explore the articles below—we’re confident they will provide great value for your business…",
-    },
-    {
-      title: "SHOPIFY DEVELOPMENT TUTORIALS",
-      desc: "Are you running a business on the Shopify platform? If so, below are some helpful articles covering the latest Shopify news, as well as practical insights on managing and operating your store effectively. In particular, Vify provides in-depth guides and tips on how to use and optimize popular apps that most Shopify stores rely on…",
-    },
-  ];
+const sections = [
+  {
+    title: "VIFY NEWS",
+    desc: "Vify specializes in analyzing, researching, collecting, and compiling the most valuable information for its customers. Here, you can find important insights related to Shopify, as well as resources to support business growth, such as how to run a business, manage sales systems, implement marketing strategies, and create professional invoices...",
+  },
+  {
+    title: "INVOICE-RELATED ARTICLES",
+    desc: "Creating and managing invoices are essential for Shopify stores. That’s why many store owners actively seek valuable insights on how to make the most of professional invoice apps. Explore the articles below—we’re confident they will provide great value for your business…",
+  },
+  {
+    title: "SHOPIFY DEVELOPMENT TUTORIALS",
+    desc: "Are you running a business on the Shopify platform? If so, below are some helpful articles covering the latest Shopify news, as well as practical insights on managing and operating your store effectively. In particular, Vify provides in-depth guides and tips on how to use and optimize popular apps that most Shopify stores rely on…",
+  },
+];
 </script>
 
-<style scoped>
-/* nếu bạn đã có blog.css thì có thể import global trong main.js */
-/* hoặc dùng: @import "../styles/blog.css"; */
-</style>
+<style scoped></style>

@@ -77,7 +77,6 @@
 <script setup>
 import { onMounted } from "vue";
 import "../styles/contact.css";
-// lucide-react → lucide-vue-next
 import { Phone, MapPin, Mail } from "lucide-vue-next";
 
 onMounted(() => {

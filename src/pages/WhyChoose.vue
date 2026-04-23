@@ -64,10 +64,10 @@
           <p class="partners-desc">
             <em>
               To deliver greater value to customers and further reinforce the
-              answer to the question <strong>“Why choose Vify?”</strong>, Vify has established
-              strategic partnerships with leading, trusted partners to build a
-              strong ecosystem of practical, high-value applications that help
-              drive growth for merchants’ stores.
+              answer to the question <strong>“Why choose Vify?”</strong>, Vify
+              has established strategic partnerships with leading, trusted
+              partners to build a strong ecosystem of practical, high-value
+              applications that help drive growth for merchants’ stores.
             </em>
           </p>
         </div>
@@ -105,7 +105,8 @@
       <div class="contactWhyChoose-section">
         <h2 class="contactWhyChoose-title">Contact Vify</h2>
         <p class="contactWhyChoose-sub">
-          Share anything you’re interested in about Vify with us—we’re always here and ready to support you.
+          Share anything you’re interested in about Vify with us—we’re always
+          here and ready to support you.
         </p>
 
         <form class="contactWhyChoose-form" @submit.prevent>
@@ -157,6 +158,4 @@ onMounted(() => {
 });
 </script>
 
-<style scoped>
-/* giữ nguyên whychoose.css nếu bạn đã có */
-</style>
+<style scoped></style>

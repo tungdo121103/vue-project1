@@ -11,8 +11,8 @@
   <div className="privacy-container">
     <div className="privacy-content">
       <p>
-        Privacy policy applied to VIFY website <em>https://vify.io</em> and all of
-        applications published by VIFY.
+        Privacy policy applied to VIFY website <em>https://vify.io</em> and all
+        of applications published by VIFY.
       </p>
       <p className="last-updated">
         Last updated on <strong>JUL 16th, 2024.</strong>
@@ -196,6 +196,4 @@ onMounted(() => {
 });
 </script>
 
-<style scoped>
-/* nếu bạn đã có privacy.css thì giữ nguyên */
-</style>
+<style scoped></style>

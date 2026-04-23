@@ -13,6 +13,15 @@ const specialPages = [
   "/partners",
   "/about",
   "/privacyPolicy",
+  "/author/tony",
+  "/author/daisy",
+  "/author/lara",
+  "/ecommerce",
+  "/12best",
+  "/postDetail",
+  "/dropshipping",
+  "/10best",
+  "/vatInvoice",
 ];
 
 // check current page

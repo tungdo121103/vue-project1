@@ -11,10 +11,9 @@
       <p class="intro-text">
         When talking
         <a
-          href="/about"
-          target="_blank"
-          rel="noopener noreferrer"
+          :href="router.resolve('/about').href"
           class="link-vify"
+          target="blank"
         >
           about Vify
         </a>
@@ -231,8 +230,10 @@
 </template>
 
 <script setup>
+import { useRouter } from "vue-router";
 import { onMounted } from "vue";
 import "../styles/about.css";
+const router = useRouter();
 onMounted(() => {
   document.title = "About Vify - Vify shopify app";
 });
